@@ -4,13 +4,15 @@ import android.util.Log;
 
 class Human extends Animal implements Thinkable {
 
+    // 変数
+    String hobby;       // 趣味
+
     // 引数付きコンストラクタ
-    public Human(String name, int age) {
+    public Human(String name, int age, String hobby) {
         this.name = name;
         this.age = age;
+        this.hobby = hobby;
     }
-
-    String hobby = "水泳";
 
     // メソッド
     public void say() {

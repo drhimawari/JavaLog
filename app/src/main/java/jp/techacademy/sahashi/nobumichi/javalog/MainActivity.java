@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Human human = new Human("山田 太郎",50);
+        Human human = new Human("山田 太郎",50, "登山");
         human.say();
         human.think();
 
