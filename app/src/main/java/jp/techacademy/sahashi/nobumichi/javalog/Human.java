@@ -4,6 +4,12 @@ import android.util.Log;
 
 class Human extends Animal implements Thinkable {
 
+    // 引数付きコンストラクタ
+    public Human(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
     String hobby = "水泳";
 
     // メソッド
